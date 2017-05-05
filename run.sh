@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-NAME="gcc"
+NAME="clang"
 
 PROG="$0"
 
