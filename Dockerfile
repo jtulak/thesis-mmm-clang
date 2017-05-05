@@ -9,6 +9,8 @@ RUN dnf -y install \
            csbuild \
            bc
 RUN mv /usr/bin/cppcheck /usr/bin/cppcheck.disabled
+RUN mv /usr/bin/gcc /usr/bin/gcc.disabled
+RUN mv /usr/bin/clang /usr/bin/gcc
 
 workdir /workdir
 volume /workdir
